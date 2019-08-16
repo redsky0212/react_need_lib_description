@@ -1,14 +1,14 @@
-## React 필요 library
+# React 필요 library
 ---------------------------------
 
-### React ( npm i react ) (https://ko.reactjs.org/docs/react-api.html)
+## React ( npm i react ) (https://ko.reactjs.org/docs/react-api.html)
 * React는 리액트를 사용하여 애플리케이션을 만들때 View쪽을 만들기 위한 라이브러리.
-### ReactDom ( npm i react-dom ) (https://ko.reactjs.org/docs/react-dom.html)
+## ReactDom ( npm i react-dom ) (https://ko.reactjs.org/docs/react-dom.html)
 * ReactDOM은 만들어진 UI를 실제 브라우져에 렌더링 할 때 사용하는 라이브러리.
-### react-router-dom ( npm i react-router-dom ) (https://reacttraining.com/react-router/web/example/basic) (https://velopert.com/3417)
+## react-router-dom ( npm i react-router-dom ) (https://reacttraining.com/react-router/web/example/basic) (https://velopert.com/3417)
 * SPA app에서 화면전환 할 수 있는 라이브러리
 
-### create-react-app으로 프로젝트 설치시
+## create-react-app으로 프로젝트 설치시
 * 설치방법
   - npx create-react-app 프로젝트명 
   - npx가 실행되지 않는다면 (npm i -g create-react-app) 설치 후 ( create-react-app 프로젝트명 ) 과 같이 실행한다.
@@ -26,11 +26,11 @@
 * src/**serviceWorker.js** 관련
   - 브라우저의 백그라운드에서 실행되는 자바스크립트 워커 이다. 웹에서도 네이티브처럼 오프라인 상테에서도 사용가능하고, 푸시알림 기능도 사용할 수 있는데, 이런기능을 할 수 있도록 도와주는 것.
 
-### 참조 URL
+## 참조 URL
 * Redux관련 설명 (https://lunit.gitbook.io/redux-in-korean/)
 * React로 블로그 만들기 (https://www.dnkdream.com/react-blog-11/)
 
 
-### 기타 참조 URL
+## 기타 참조 URL
 * github README파일 마크다운 설명 (https://gist.github.com/ihoneymon/652be052a0727ad59601)
 * 매니페스트,서비스워커 관련 설명 (https://altenull.github.io/2018/03/09/%EC%9B%B9%EC%95%B1-%EB%A7%A4%EB%8B%88%ED%8E%98%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-Web-App-Manifest-Service-Worker/)
