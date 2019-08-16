@@ -9,6 +9,11 @@
 * SPA app에서 화면전환 할 수 있는 라이브러리
 * **BrowserRouter** 를 이용하여 HTML5의 history API를 이용하여 새로고침 하지 않고 화면전환 가능하게 한다.
 * &lt;BrowserRouter&gt;&lt;App /&gt;&lt;/BrowserRouter&gt;
+```
+<BrowserRouter>
+    <App />
+</BrowserRouter>
+```
 
 ## create-react-app으로 프로젝트 설치시
 * 설치방법
