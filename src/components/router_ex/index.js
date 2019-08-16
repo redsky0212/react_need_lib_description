@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const propTypes = {
@@ -18,7 +19,9 @@ class router_ex extends Component {
     render() {
         return (
             <div>
-라우터 테스트
+                <Link to="/router_ex/1">첫번째화면</Link>
+                <Link to="/router_ex/2">두번째화면</Link>
+                <Route exact path="/router_ex/1" component={} />
             </div>
         );
     }
