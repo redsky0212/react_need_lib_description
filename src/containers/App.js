@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
 
+import Router_ex from '../components/router_ex';
+
 function App() {
   return (
     <div className="App">
-      start
+      <Router_ex />
     </div>
   );
 }

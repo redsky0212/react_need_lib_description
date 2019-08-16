@@ -7,7 +7,7 @@
 * ReactDOM은 만들어진 UI를 실제 브라우져에 렌더링 할 때 사용하는 라이브러리.
 ## react-router-dom ( npm i react-router-dom ) (https://reacttraining.com/react-router/web/example/basic) (https://velopert.com/3417)
 * SPA app에서 화면전환 할 수 있는 라이브러리
-* **BrowserRouter** 를 이용하여 HTML5의 history API를 이용하여 새로고침 하지 않고 화면전환 가능하게 한다.
+#### **BrowserRouter** 를 이용하여 HTML5의 history API를 이용하여 새로고침 하지 않고 화면전환 가능하게 한다.
 ```
 import { BrowserRouter } from 'react-router-dom';
 import App from './containers/App';
@@ -20,6 +20,20 @@ const Root = () => {
 }
 export default Root;
 ```
+#### 라우트 이동 (Link)
+* a태그를 이용하지 않고 Link를 이용하여 이동할 메뉴링크를 코딩한다.(a태그로 하면 화면 새로고침 됨.)
+```
+import {Link} from 'react-router-dom';
+<Link to="/">홈</Link>
+```
+
+#### 라우트 이동 및 추가기능 (NavLink)
+* NavLink 로 activeStyle, activeClassName설정을 해서 url이 일치 했을때 적용할 스타일을 설정할 수 있다.
+  - let activeStyle = {
+        color: 'green',
+        fontSize: '2rem'
+    };
+  - &lt;NavLink exact to="/" activeStyle={activeStyle}&gt;홈&lt;/NavLink&gt;
 
 ## create-react-app으로 프로젝트 설치시
 * 설치방법
