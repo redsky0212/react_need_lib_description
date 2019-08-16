@@ -7,6 +7,8 @@
 * ReactDOM은 만들어진 UI를 실제 브라우져에 렌더링 할 때 사용하는 라이브러리.
 ## react-router-dom ( npm i react-router-dom ) (https://reacttraining.com/react-router/web/example/basic) (https://velopert.com/3417)
 * SPA app에서 화면전환 할 수 있는 라이브러리
+* **BrowserRouter** 를 이용하여 HTML5의 history API를 이용하여 새로고침 하지 않고 화면전환 가능하게 한다.
+* &lt;BrowserRouter&gt;&lt;App /&gt;&lt;/BrowserRouter&gt;
 
 ## create-react-app으로 프로젝트 설치시
 * 설치방법
