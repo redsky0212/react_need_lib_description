@@ -56,7 +56,13 @@ import {Link} from 'react-router-dom';
 --------------------------------------------------------
 아래부터는 내용 정리를 해야 함
 --------------------------------------------------------
-## npm install --save  redux react-redux
+## redux 상태관리 (npm install --save  redux react-redux)
+* redux: redux모듈
+* react-redux: 리덕스를 사용하기 위한 유용한 도구들이 들어가 있음.
+* 상태관리를 위한 액션, 리듀서를 하나의 파일로 만들어 작성하는 방법인 Ducks패턴 에 관련해 스터디 필요.
+
+## redux-actions
+## redux-pender
 ## npm install --save-dev @babel/core babel-loader @babel/preset-env
 * 설치 후 .babelrc 파일 생성 후 아래내용 추가
 ```
@@ -67,9 +73,13 @@ import {Link} from 'react-router-dom';
 }
 ```
 ## babel-polyfill
+## axios
 
 ## 참조 URL
 * Redux관련 설명 (https://lunit.gitbook.io/redux-in-korean/)
+* velopert님의 리덕스 사용 (https://velog.io/@velopert/Redux-3-%EB%A6%AC%EB%8D%95%EC%8A%A4%EB%A5%BC-%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-nvjltahf5e)
+* velopert님의 미들웨어 관련 (https://velopert.com/3401)
+* velog 리액트 Hooks 완벽정복 (https://velog.io/@velopert/react-hooks)
 * React로 블로그 만들기 (https://www.dnkdream.com/react-blog-11/)
 
 
