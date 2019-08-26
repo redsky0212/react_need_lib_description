@@ -21,7 +21,7 @@ class router_ex extends Component {
             <div>
                 <Link to="/router_ex/1">첫번째화면</Link>
                 <Link to="/router_ex/2">두번째화면</Link>
-                <Route exact path="/router_ex/1" component={} />
+                {/* <Route exact path="/router_ex/1" component={} /> */}
             </div>
         );
     }

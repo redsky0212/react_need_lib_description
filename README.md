@@ -53,6 +53,21 @@ import {Link} from 'react-router-dom';
 * src/**serviceWorker.js** 관련
   - 브라우저의 백그라운드에서 실행되는 자바스크립트 워커 이다. 웹에서도 네이티브처럼 오프라인 상테에서도 사용가능하고, 푸시알림 기능도 사용할 수 있는데, 이런기능을 할 수 있도록 도와주는 것.
 
+--------------------------------------------------------
+아래부터는 내용 정리를 해야 함
+--------------------------------------------------------
+## npm install --save  redux react-redux
+## npm install --save-dev @babel/core babel-loader @babel/preset-env
+* 설치 후 .babelrc 파일 생성 후 아래내용 추가
+```
+{
+ "presets": [
+  "@babel/preset-env"
+ ]
+}
+```
+## babel-polyfill
+
 ## 참조 URL
 * Redux관련 설명 (https://lunit.gitbook.io/redux-in-korean/)
 * React로 블로그 만들기 (https://www.dnkdream.com/react-blog-11/)
